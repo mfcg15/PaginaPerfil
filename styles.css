@@ -1,0 +1,218 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links
+{
+    display: flex;
+    align-items: center;
+    list-style:none;
+    margin: 20px;
+}
+
+.nav-title, li
+{
+    margin-right: 121px;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.active
+{
+    font-weight: bold;
+}
+
+.btn
+{
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+    padding: 8px;
+}
+
+.main
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contenedor
+{
+    display: flex;
+}
+
+.contenedor_izquierdo
+{
+    margin-right: 22px;
+}
+
+.tarjeta_usuario
+{
+    width: 770px;
+    margin-bottom: 20px;
+}
+
+.encabezado_Azul
+{
+    width: 100%;
+    height: 70px;
+    background-color: #2596be;
+}
+
+.contenedorImagen
+{
+    border-radius: 50% ;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    position: absolute;
+    top: 110px;
+    left: 290px;
+}
+
+.imagenPerfil
+{
+    width: 60px;
+    height: 60px;
+}
+
+.bordes_laterales
+{
+    border-right: 2px solid gray;
+    border-left: 2px solid gray; 
+}
+
+.borde_inferior
+{
+    padding: 20px;
+    border-bottom: 2px solid gray;
+}
+
+.formato_informacion
+{
+    padding: 10px;
+}
+
+.division
+{
+    margin-top: 10px;
+}
+
+.imagenIcono
+{
+    width: 10px;
+    height: 10px;
+}
+
+.colorAzul
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+.colorAzul,span
+{
+    margin-left: 4px;
+}
+
+.encabezadoNegro
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.texto
+{
+    margin-bottom: 10px;
+}
+
+.decolorado
+{
+    color: grey;
+}
+
+.MarginBoottom
+{
+    margin-bottom: 20px;
+}
+
+.subtitulos
+{
+    display: flex;
+    align-items: center;
+}
+
+.circulo 
+{
+    width: 30px;
+}
+
+.circulo , .ovalo
+{
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo, .ovalo, .separacion
+{
+    margin-right: 10px;
+}
+
+.grupo_requests
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
+}
+
+.iconos_perfil,.imagen_icono_respuestas
+{
+    width: 26px;
+    height: 26px;
+}
+
+.ovalo
+{
+    width: 50px;
+}
+
+.grupo_connections
+{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.footer_informacion
+{
+    border: 2px solid gray;
+    padding: 10px;
+}
